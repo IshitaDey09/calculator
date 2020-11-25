@@ -63,7 +63,7 @@ function division()
     num1 = parseInt(document.getElementById("first").value);
     num2 = parseInt(document.getElementById("second").value);
     num3 = parseInt(document.getElementById("third").value);
-    res = (num1 / num2)/num3
+    res = (num1 / num2)/num3;
     document.getElementById("result1").innerHTML = res;
     
     
